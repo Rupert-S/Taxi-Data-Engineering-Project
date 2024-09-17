@@ -8,7 +8,7 @@ The pipeline leverages GCP services to store, process, and query large datasets,
 
 ### Data Source
 
-The dataset consists of publicly available Uber Ride data, accessible from the [NYC TLC Trip Record Data]([url](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page)) page.
+The dataset consists of publicly available Uber Ride data, accessible from the [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) page.
 
 ### GCP Setup
 
