@@ -10,7 +10,7 @@ The project architecture is as follows:
   - VM Instance: A Google Compute Engine VM instance running Mage AI is used for data transformation. Mage AI handles the ETL (Extract, Transform, Load) process, creating a pipeline to process the raw data.
   - BigQuery: The transformed data is loaded into BigQuery, where it is stored in a structured format. Analysts can access this data for reporting and analytics via Looker Studio.
 
-![Architecture Image](/architecture.jpg)
+![Architecture Image](/images/architecture.jpg)
 
 ## Data
 
@@ -29,7 +29,7 @@ The data is structured into multiple dimension tables and a fact table. Below is
   - dropoff_location_dim: Records latitude and longitude for dropoff locations (dropoff_latitude, dropoff_longitude).
   - payment_type_dim: Captures the payment methods used for each trip (payment_type_name).
 
-![Data Model](/Uber_Data_Model.png)
+![Data Model](/images/Uber_Data_Model.png)
 
 These tables are joined to create an analytics table in BigQuery which can be found in the create_tbl_analytics.sql file
 
