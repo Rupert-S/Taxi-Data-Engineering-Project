@@ -29,7 +29,7 @@ The data is structured into multiple dimension tables and a fact table. Below is
   - dropoff_location_dim: Records latitude and longitude for dropoff locations (dropoff_latitude, dropoff_longitude).
   - payment_type_dim: Captures the payment methods used for each trip (payment_type_name).
 
-![Data Model](/images/Uber_Data_Model.png)
+![Data Model](/images/data_model.jpg)
 
 These tables are joined to create an analytics table in BigQuery which can be found in the create_tbl_analytics.sql file
 
