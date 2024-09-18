@@ -1,17 +1,21 @@
 # Uber-Data-Engineering-Project
 
-Th aim of the project is to build an end to end data pipeline using Google Cloud Platform Services (GCP), Mage AI and Looker Studio.
+This project demonstrates the creation of a comprehensive end-to-end data pipeline using Google Cloud Platform (GCP), Mage AI, and Looker Studio. The goal is to process and visualize Uber Ride data efficiently.
 
-## Setup
+## Project Overview
 
-Initial data transformation was done locally using Jupyter Notebooks
+The pipeline leverages GCP services to store, process, and query large datasets, Mage AI for orchestration, and Looker Studio for data visualization.
 
-### Data
+### Data Source
 
-The project utilizes publicly available Uber Ride data found at https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page.
+The dataset consists of publicly available Uber Ride data, accessible from the [NYC TLC Trip Record Data](https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page) page.
 
-### GCP
+### GCP Setup
 
-1. Setup Big Query Bucket to store the Uber Ride Data so it can be requested as an API.
-2. Setup a VM Instance with Python 3.11, pip3, Mage AI, google-cloud and google-cloud-bigquery
-3. Mage AI can then be accessed using the localhost of the instance at port 6789 to create the pipeline 
+1. BigQuery: A BigQuery Bucket is set up to store the raw Uber Ride data, enabling scalable access through API requests.
+2. Virtual Machine Instance: A VM instance is configured with Python 3.11, Mage AI, and relevant Google Cloud libraries such as google-cloud and google-cloud-bigquery.
+3. Mage AI: Mage AI is hosted on the VM instance and can be accessed via the localhost (port 6789) to build and manage the data pipeline.
+
+### Local Development
+
+Initial data transformations were performed locally using Jupyter Notebooks for easy experimentation and prototyping.
