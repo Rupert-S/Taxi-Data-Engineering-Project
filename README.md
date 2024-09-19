@@ -1,6 +1,6 @@
-# Uber Data Engineering Project
+# Taxi Data Engineering Project
 
-This project demonstrates an end-to-end data engineering pipeline built using Google Cloud Platform (GCP), Mage AI, and Looker Studio. The pipeline ingests raw Uber Ride data, processes it through a VM instance, and stores the transformed data in BigQuery for analysis.
+This project demonstrates an end-to-end data engineering pipeline built using Google Cloud Platform (GCP), Mage AI, and a report builder of choice. The pipeline ingests raw Uber Ride data, processes it through a VM instance, and stores the transformed data in BigQuery for analysis.
 
 ## Project Architecture
 
